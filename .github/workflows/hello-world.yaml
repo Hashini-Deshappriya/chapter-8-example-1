@@ -30,5 +30,7 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs our our "Hello world" shell script.
-      - name: Runs the "Hello world" shell script
-        run: ./index.sh
+      
+      
+      - name: Runs the "Demo" shell script
+        run: ./demo.sh
